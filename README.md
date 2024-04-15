@@ -1,19 +1,29 @@
 # projeto_burguer
 
-## Project setup
+## Setup do Projeto
+instalar dependências do Node
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm i
 ```
 
-### Compiles and minifies for production
+### Execute o comando abaixo para iniciar o projeto
 ```
-npm run build
+npm run server
 ```
 
+
+#### JSON SERVER
+É necessario realizar a instalação do json-server para rodar a api da aplicação.
+
+```
+npm install -g json-server
+
+```
+
+### Iniciar o json-server
+
+```
+npm run backend
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
